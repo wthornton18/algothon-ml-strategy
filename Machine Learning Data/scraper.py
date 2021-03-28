@@ -1,6 +1,6 @@
 
 import yfinance as yf
-assettype = ['currency', 'bond', 'commodity']
+assettype = ['currency', 'bond', 'commodity, 'stock']
 for asset in assettype:
     f = open(f'{asset}-symbols.txt', 'r')
     assets = []
